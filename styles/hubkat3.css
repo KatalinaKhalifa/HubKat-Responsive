@@ -43,10 +43,11 @@ header h1 a{
 }
 
 #headerWrap{
-	width: 1350px;
-	margin-left: auto;
-    margin-right: auto;
+	width: 100%;
+	margin-left: 5%;
+
     height: inherit;
+    float: none;
 }
 
 nav{
@@ -96,6 +97,14 @@ nav a:hover {
 #content img {
 	
 	overflow: hidden;
+}
+
+#cont{
+    padding-top: 70px;
+}
+
+#cont img {
+	width: 100%
 }
 
 .contentLeft{
