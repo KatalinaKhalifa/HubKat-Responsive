@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="key, words" />
+		<meta name="description" content="description" />
+
+		<title>HubKat Web Development - Nelson, NZ</title>
+
+	<!--
+		<link rel="stylesheet" type="text/css" href="styles/ScrollPane.css" />
+			<link rel="stylesheet" type="text/css" href="styles/chat.css" />-->
+	
+		<link rel="stylesheet" type="text/css" href="styles/hubkat3.css" />
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400,700 | Titillium+Web:400,200' rel='stylesheet' type='text/css'>
+		<link href="styles/bootstrap.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div id="headerWrap">
+				<h1><a href="/"><img src="images/headerLogo.png"/></a></h1>
+				<nav>
+					<a href="index.html">Home</a>
+					<a href="services.html">Services</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="about.html">About</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div>
+		</header>
+		<div id="content">
+			<div class="contentLeft">
+				 <div class="container">  
+			        <div class="page-header">  
+			            <span class="ProfileHeader contactH1">Message Us</span>  
+			        </div>  
+			        <form method="POST" action="contact-form-submission.php" class="form-horizontal">  
+			            <div class="control-group">  
+			                <label class="control-label contactText" for="input1">Name</label>  
+			                <div class="controls">  
+			                    <input type="text" name="contact_name" id="input1" placeholder="Your name">  
+			                </div>  
+			            </div>  
+			            <div class="control-group">  
+			                <label class="control-label contactText" for="input2">Email Address</label>  
+			                <div class="controls">  
+			                    <input type="text" name="contact_email" id="input2" placeholder="Your email address">  
+			                </div>  
+			            </div>  
+			            <div class="control-group">  
+			                <label class="control-label contactText" for="input3">Message</label>  
+			                <div class="controls">  
+			                    <textarea name="contact_message" id="input3" rows="8" class="span5" placeholder="The message you want to send HubKat."></textarea>  
+			                </div>  
+			            </div>  
+			            <div class="form-actions">  
+			                <input type="hidden" name="save" value="contact">  
+			                <button type="submit" class="btn btn-primary">Send</button>  
+			            </div>  
+			        </form>  
+			          
+			    </div>
+		    </div>
+		    <div class="contactRight">
+		    	<div class="page-header">  
+			        <span class="ProfileHeader contactH1">Let's Talk</span>  
+			    </div>  
+			    
+			    <p class="contactLetsTalk">Email Yule at <span class="blue"><a href="mailto:yulelani@hubkat.co.nz?subject=enquiry">yulelani@hubkat.co.nz</a></span></p>
+			    <p class="contactLetsTalk">Email Alex at <span class="blue"><a href="mailto:alex@hubkat.co.nz?subject=enquiry">alex@hubkat.co.nz</a></span></p>
+			   	<p class="contactLetsTalk">Call Yule on: <span class="blue"><a href="tel:+64210499676">021 0499676</a></span></p>
+			   	<p class="contactLetsTalk">Call Alex on: <span class="blue"><a href="tel:+642102886720">02102886720</a></p>
+			   	<!--<p class="profileTextcontactLetsTalk-->
+		</div>
+
+		<div id="footer">
+<!--
+			<div id="footerNav">
+				<div class="footerBlock">
+					<a href="index.html">Home</a>
+				</div>
+				<div class="footerBlock">
+					<a href="services.html">Services</a>
+				</div>
+				<div class="footerBlock">
+					<a href="portfolio.html">Portfolio</a>
+				</div>
+				<div class="footerBlock">
+					<a href="about.html">About</a>
+				</div>
+				<div class="footerBlock last">
+					<a href="about.html">Contact</a>
+				</div>
+			</div>
+		</div>-->
+
+		<!-- Loading jQuery, the mousewheel plugin and jScrollPane, along with our script.js -->
+		<!-- Placed here to optimize page load time -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="scripts/jscrollpane/jquery.mousewheel.js"></script>
+		<script src="scripts/jscrollpane/jscrollpane.js"></script>
+		<script src="scripts/script.js"></script>
+	</body>
+</html>

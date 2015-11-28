@@ -1,0 +1,258 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	/*background:url('../images/page_bg.jpg') repeat-x #323232; ----- Makes the screen too dark */
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	background: none repeat scroll 0 0 #1A1A1A;
+}
+
+nav{
+	right: 0;
+	font-family: 'Nunito', sans-serif;
+	width: 70%;
+	color: #ffffff;
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	float: left;
+	
+	/* Adds the transparent background */
+	/*background-color: rgba(1, 1, 1, 0.8);
+	color: rgba(1, 1, 1, 0.8); */
+}
+
+header{
+	background: url("../images/headerBG.png") repeat-x scroll 0 0 transparent;
+    height: 62px;
+    left: 0;
+    right: 150px;
+    position: fixed;
+    width: 100%;
+    z-index: 101;
+}
+
+#headerWrap{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header h1{
+	
+	margin-left: 10px;
+	float: left;
+	width: 19%;
+}
+
+header h1 a{
+	/*background: url("../images/headerLogo.png") no-repeat scroll 0 0 transparent; */
+    background: #97CAE6;
+    display: block;
+    height: 42px;
+    position: absolute;
+    /*text-indent: -9000px; */
+    top: 0;
+    color: white;
+    font-family:Nunito;
+    font-size:20px;
+    overflow: hidden;
+    width: 14%;
+    padding: 10px;
+}
+
+#logo{
+	color: #FCFCFC;
+	/*padding-right: 235px; ---- Pushes text to the right - not centred anymore */
+}
+
+nav a {
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	text-decoration: none;
+	
+	
+}
+
+nav a:hover {
+	color: grey;
+} 
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	/*border-bottom:1px dotted #97cae6;  ----- The dots are too close together, if I can change this it would look nice*/
+	color:#97cae6;
+}
+
+a.tzine,a.tzine:visited{
+	background:url("../images/tzine.png") no-repeat right top;
+	border:none;
+	color:#FCFCFC;
+	font-size:12px;
+	height:70px;
+	left:50%;
+	line-height:31px;
+	margin:23px 0 0 110px;
+	position:absolute;
+	top:0;
+	width:290px;
+}
+
+.tri{
+	border-color:transparent transparent #212121;
+	border-style:solid;
+	border-width:20px 17px;
+	height:0;
+	left:50%;
+	margin:-40px 0 0 -400px;
+	position:absolute;
+	top:0;
+	width:0;
+}
+
+/*h1{
+	font-size:20px;
+	font-weight:normal;
+	left:50%;
+	margin-left:-400px;
+	padding:25px 0;
+	position:absolute;
+	width:480px;
+}*/
+
+.body, #content { /* .body is currently commented out in the HTML - it could potentially be removed in the future*/
+	width: 1200px;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	overflow: hidden;
+}
+
+#content img {
+	
+	overflow: hidden;
+}
+
+
+
+.blockElement{
+	width: 280px;
+	height: 280px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.largeBlockElement{
+	width: 580px;
+	height: 580px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.textBlock{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 280px;
+	height: 280px;
+	background: none repeat scroll 0 0 #2A2A2A;
+	clear: : both
+}
+
+.textBlock h1{
+	padding: 20px;
+	color: #6F7B5D;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 200;
+}
+
+.textBlock h1 span{
+	color: #97CAE6;
+}
+
+.addMargin{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.floatLeft{
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.floatMiddle{
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.floatRight{
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+footer{
+	background: url("../images/headerBG.png") repeat-x scroll 0 0 transparent;
+    height: 62px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 101;
+}
+
+#footerNav{
+	font-family: 'Nunito', sans-serif;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: #ffffff;
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	background-color: rgba(1, 1, 1, 0.8);
+	color: rgba(1, 1, 1, 0.8); 
+}
+
+/*#respond {
+	margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'], 
+#respond textarea {
+	margin-bottom: 10px;
+	display: block;
+	width: 100%;
+
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+
+	line-height: 1.4em;
+}*/
