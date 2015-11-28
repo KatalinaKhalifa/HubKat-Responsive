@@ -99,6 +99,14 @@ nav a:hover {
 	overflow: hidden;
 }
 
+#cont{
+    padding-top: 70px;
+}
+
+#cont img {
+	width: 100%
+}
+
 .contentLeft{
 	display: inline;
 	position: relative;
